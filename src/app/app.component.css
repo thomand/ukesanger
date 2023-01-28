@@ -1,0 +1,8 @@
+div {
+  text-align: center;
+}
+
+.sticky-bottom {
+  position: sticky;
+  margin-bottom: 0;
+}

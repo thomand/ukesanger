@@ -1,0 +1,17 @@
+<h1>UKA - Sanger</h1>
+
+<div>
+  <div class="row">
+    <div class="column">Tittel</div>
+    <div class="column"></div>
+  </div>
+  <div class="row" *ngFor="let song of songs$ | async">
+    <div class="column">{{song.title}}</div>
+    <div class="column">
+      <!--<audio controls *ngIf="song.songUrl">
+        <source [src]="song.songUrl" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>-->
+    </div>
+  </div>
+</div>
